@@ -1,0 +1,41 @@
+#header{
+    background-color: hsl(120, 100%, 19%);
+}
+.body{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.header{
+    padding: 35pxpx;
+    font: bold;
+    font-size: x-large;
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+#logo{
+    width: 100px;
+    height: 100px;
+    float: none;
+}
+.footer{
+    text-align: center;
+    font: bold;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer a.active{
+    background-color: hsl(0, 0%, 0%);
+    border-radius: 15px;
+    margin-top: 30px;
+    color: white;
+    height: 30px;
+    text-decoration: solid;
+}
+#link-footer{
+    padding: 30px;
+}
+.footer a:hover:not(.active){
+    background-color: rgb(126, 126, 126);
+    border-radius: 10px;
+}
